@@ -4,7 +4,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import ImageSearchScreen from '../containers/ImageSearchScreen';
 import ImageDetailsScreen from '../containers/ImageDetailsScreen';
 import {IMAGE_SEARCH_SCREEN, IMAGE_DETAIL_SCREEN} from '../Constants/screens';
-import {imageSearch, imageDetail} from '../Constants/Strings';
+import {Strings} from '../Constants/Strings';
+const {imageSearch, imageDetail} = Strings;
 const Stack = createNativeStackNavigator();
 
 const Navigation = () => {
